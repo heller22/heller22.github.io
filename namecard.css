@@ -22,12 +22,17 @@ time, mark, audio, video {
 * {
     box-sizing: border-box;
   }
- 
+
+  @font-face {
+    font-family: "nova-mono";
+    src: url(/heller22.github.io/Lib/NovaMono-Regular.ttf);
+    }
+
 body  {
   display: flex;
   justify-content: center;
+  font-family: "nova-mono";
   align-items: center;
-  font-family: "Architects Daughter", cursive;
   background-image:url(/heller22.github.io/Lib/háttér-metal2.jpg);
   background-size: cover;
   background-position: right bottom, left top;
@@ -144,3 +149,4 @@ a {
   text-decoration: none;
   color: rgb(35, 35, 61);
 }
+
